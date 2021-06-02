@@ -1,8 +1,5 @@
 const { chunk } = require('lodash');
-const userAgents = require('top-user-agents');
-
-// for this example i'm using all user-agents, but you would normally target specific user-agents
-// const userAgents = require('ua-list')('ie');
+const userAgents = require('ua-list')('ie');
 
 module.exports = {
   async redirects() {

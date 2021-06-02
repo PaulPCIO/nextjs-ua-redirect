@@ -1,14 +1,10 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
-import userAgents from 'top-user-agents';
-
-// for this example i'm using all user-agents, but you would normally target specific user-agents
-// const userAgents = require('ua-list')('ie');
 
 export const getServerSideProps = async (context) => {
+  const userAgents = require('ua-list')('ie');
   const userAgent = context.req.headers['user-agent'];
-  console.log(userAgent, userAgents);
   return {
     props: {
       matchesRedirectAgent: userAgents.includes(userAgent),

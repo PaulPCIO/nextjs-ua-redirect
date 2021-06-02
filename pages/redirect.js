@@ -1,3 +1,3 @@
 export default function testRedirect() {
-  return <h1>If you see this page, then redirecting is not working</h1>;
+  return <h1 style={{ color: 'red' }}>Redirecting is not working</h1>;
 }
