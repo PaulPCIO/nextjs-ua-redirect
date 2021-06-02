@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <title>Please Upgrade Your Browser</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <style>
+      html {
+        min-height: 100%;
+      }
+      body {
+        height: 100%;
+        text-align: center;
+        color: black;
+        background: white;
+        font-family: sans-serif;
+        margin: auto;
+      }
+      .menu {
+        margin: 14px auto;
+      }
+      .menu-logo {
+        padding: 0 10px;
+      }
+      .menu-item {
+        color: #888888;
+        text-decoration: none;
+        display: inline-block;
+        padding: 0 10px;
+      }
+      .menu-item:hover {
+        color: #222222;
+      }
+      .hr {
+        border-bottom: 1px solid #eaeaea;
+      }
+      .intro {
+        text-align: center;
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      ul {
+        padding: 0;
+        list-style: none;
+        margin: 0 auto;
+        max-width: 850px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      li {
+        float: left;
+        margin: 12px;
+      }
+      h1 {
+        font-size: 40px;
+        margin: 60px 0 30px 0;
+      }
+      h2 {
+        font-size: 18px;
+        color: #444;
+        line-height: 1.5;
+        font-weight: 500;
+        margin-top: 0;
+      }
+      img {
+        margin: auto;
+        border: 0;
+      }
+      .button {
+        text-align: center;
+        padding: 1.5rem;
+        color: #888888;
+        text-decoration: none;
+        display: inline-block;
+        width: 200px;
+        height: 180px;
+        border: 1px solid #eaeaea;
+        border-radius: 10px;
+      }
+      .button:hover {
+        border: 1px solid #000;
+      }
+      .info {
+        font-size: 15px;
+        line-height: 1.5;
+        margin: 0;
+        text-align: left;
+      }
+      .continue {
+        color: #0070F3;
+        text-decoration: none;
+        display: inline-block;
+        margin: 20px 0;
+      }
+      .continue:hover {
+        color: #3291FF;
+      }
+    </style>
+  </head>
+  <body data-new-gr-c-s-check-loaded="14.1012.0" data-gr-ext-installed="">
+    <table class="menu">
+      <tbody><tr>
+        <td>
+          <svg class="menu-logo" width="29" height="25" viewBox="0 0 116 100" fill="#000" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M57.5 0L115 100H0L57.5 0z"></path>
+          </svg>
+        </td>
+        <td>
+          <a class="menu-item" href="/docs">Docs</a>
+        </td>
+        <td>
+          <a class="menu-item" href="/guides">Guides</a>
+        </td>
+        <td>
+          <a class="menu-item" href="/support">Support</a>
+        </td>
+      </tr>
+    </tbody></table>
+    <div class="hr"></div>
+    <div class="intro">
+      <h1>Please Upgrade Your Browser</h1>
+      <h2>
+        It looks like you're using an old web browser that cannot render this
+        page properly. Please upgrade your browser to the latest version or try a different
+        browser.
+      </h2>
+    </div>
+    <ul>
+      <li>
+        <a class="button" href="https://www.google.com/chrome" title="Google Chrome">
+          <img src="https://cdn.jsdelivr.net/npm/@browser-logos/chrome@1.0.18/chrome_64x64.png" width="32" height="32">
+          <h2 lang="en">Google Chrome</h2>
+          <p class="info">
+            Get more done with the new Google Chrome. A more simple, secure, and
+            faster web browser than ever, with Google’s smarts built-in.
+          </p>
+        </a>
+      </li>
+      <li>
+        <a class="button" href="https://www.mozilla.org/firefox/" title="Mozilla Firefox">
+          <img src="https://cdn.jsdelivr.net/npm/@browser-logos/firefox@3.0.9/firefox_64x64.png" width="32" height="32">
+          <h2 lang="en">Mozilla Firefox</h2>
+          <p class="info">
+            Faster page loading, less memory usage and packed with features, the
+            new Firefox is here.
+          </p>
+        </a>
+      </li>
+      <li>
+        <a class="button" href="https://www.apple.com/safari/" title="Apple Safari">
+          <img src="https://cdn.jsdelivr.net/npm/@browser-logos/safari@2.0.0/safari_64x64.png" width="32" height="32">
+          <h2 lang="en">Safari</h2>
+          <p class="info">
+            Safari is faster and more energy efficient than other browsers. You
+            can shop safely and simply in Safari on your Mac.
+          </p>
+        </a>
+      </li>
+      <li>
+        <a class="button" href="https://www.opera.com/" title="Opera">
+          <img src="https://cdn.jsdelivr.net/npm/@browser-logos/opera@1.1.11/opera_64x64.png" width="32" height="32">
+          <h2 lang="en">Opera</h2>
+          <p class="info">
+            Opera is a secure, innovative browser used by millions around the
+            world with a built-in ad blocker, free VPN, and much more.
+          </p>
+        </a>
+      </li>
+      <li>
+        <a class="button" href="https://www.microsoft.com/edge" title="Microsoft Edge">
+          <img src="https://cdn.jsdelivr.net/npm/@browser-logos/edge@2.0.5/edge_64x64.png" width="32" height="32">
+          <h2 lang="en">Microsoft Edge</h2>
+          <p class="info">
+            Microsoft Edge offers world-class performance with more privacy,
+            more productivity, and more value while you browse.
+          </p>
+        </a>
+      </li>
+    </ul>
+    <script type="text/javascript">
+      function continueAnyway() {
+        window.localStorage.setItem('ignore-browser', '1');
+        window.location = '/';
+      }
+    </script>
+    <p>
+      <a class="continue" href="javascript:continueAnyway();">Continue Without Upgrading →</a>
+    </p>
+  
+
+</body></html>
