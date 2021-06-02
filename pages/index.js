@@ -8,6 +8,7 @@ import userAgents from 'top-user-agents';
 
 export const getServerSideProps = async (context) => {
   const userAgent = context.req.headers['user-agent'];
+  console.log(userAgent, userAgents);
   return {
     props: {
       matchesRedirectAgent: userAgents.includes(userAgent),
